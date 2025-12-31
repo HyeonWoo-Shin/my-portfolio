@@ -53,10 +53,9 @@ function Header() {
         <h1 className="title">
           안녕하십니까 <span className="title-name">신현우 </span>입니다
         </h1>
-        <p className="subtitle">👨🏻‍💻프론트엔드 개발</p>
+        <p className="subtitle">👨🏻‍💻포트폴리오 요약</p>
         <p className="about-me">
-          저는 신입 프론트엔드 개발자 신현우입니다. 직관적인 UI/UX 디자인으로
-          유저 친화적인 웹/앱 어플리케이션을 만드려고합니다.
+          저는 신현우입니다. 진행하였던 프로젝트들의 정리를 위한 페이지입니다다.
         </p>
         <div className="contactLinks">
           <a
@@ -173,25 +172,9 @@ const skills = [
       "https://cdn.iconscout.com/icon/free/png-256/free-html-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-3-pack-logos-icons-2944937.png",
   },
   {
-    title: "CSS",
-    image:
-      "https://cdn.iconscout.com/icon/free/png-256/free-css-logo-icon-download-in-svg-png-gif-file-formats--logos-pack-icons-722685.png",
-  },
-
-  {
     title: "JavaScript",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png",
-  },
-  {
-    title: "React.js",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
-  },
-  {
-    title: "BootStrap",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png",
   },
   {
     title: "Python",
@@ -206,22 +189,27 @@ const skills = [
   {
     title: "Java",
     image:
-      "https://cdn.iconscout.com/icon/free/png-512/free-java-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-language-pack-logos-icons-1174953.png",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/250px-Java_programming_language_logo.svg.png",
   },
   {
-    title: "GitHub",
+    title: "AWS",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/2048px-Github-desktop-logo-symbol.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/640px-Amazon_Web_Services_Logo.svg.png",
   },
+  {
+    title: "Docker",
+    image:
+      "https://velog.velcdn.com/images/moonshadow/post/700d483c-4c85-423d-bf92-bf8261a40b08/image.png"
+  }
 ];
 
 const projects = [
   {
     id: 1,
-    title: "Novel",
+    title: "웹 소설 정보, 평점 사이트",
     image: novel,
     technologies: ["HTML", "CSS", "JavaScript", "JSP", "MySQL"],
-    description: "웹 소설 정보 웹앱 Novel입니다",
+    description: "웹 소설 정보 웹 사이트 구축",
     features: ["Static Web App"],
   },
   {
@@ -240,6 +228,33 @@ const projects = [
     technologies: ["Flutter", "Dart", "Python"],
     description:
       "Inbody의 결과지를 사진으로 찍거나, 이미지에서 선택하여 몸상태에 맞는 운동을 추천하도록 하였습니다.",
-    features: ["Dynamic Android App", "API Data Fetching", "Python OCR"],
+    features: ["Dynamic Android App", "API Data Fetching", "Python"],
+  },
+  {
+    id: 4,
+    title: "온프레미스 인프라 설계 및 구축",
+    image: infra,
+    technologies: ["Nginx", "JSP", "Linux"],
+    description:
+      "가상의 항공사를 설정하여 인프라를 설계 및 본사,데이터센터를 구축하였습니다.",
+    features: ["Infra", "Networking"],
+  },
+  {
+    id: 5,
+    title: "온프레미스 인프라 AWS 마이그레이션",
+    image: awsinfra,
+    technologies: ["Docker", "AWS", "DNS"],
+    description:
+      "구축된 온프레미스 인프라를 AWS로 이전하며 Docker를 사용하여 가상화를 하였습니다.",
+    features: ["Infra", "Networking", "NGINX"],
+  },
+  {
+    id: 6,
+    title: "개인용 NAS 구축",
+    image: personalNAS,
+    technologies: ["Linux", "Cloudflare"],
+    description:
+      "개인용으로 사용할 NAS를 구축하며 웹 클라우드를 구현.",
+    features: ["Infra", "Networking"],
   },
 ];
