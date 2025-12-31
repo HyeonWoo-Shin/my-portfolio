@@ -4,7 +4,12 @@ import "./index.css";
 import novel from "./novel.jpg";
 import aiClothRec from "./aiClothRec.jpg";
 import inBodyOCR from "./inBodyOCR.jpg";
+import infra from "./infra.jpg";
+import awsinfra from "./awsinfra.jpg";
+import personalNAS from "./personalNAS.png";
 
+
+  
 export default function App() {
   const [color, setColor] = useState(false);
 
